@@ -1,0 +1,197 @@
+@media (max-width: 1000px) {
+    #abstract-image {
+        width: 500px;
+        bottom: -5px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .education-image-column img {
+        width: 100%;
+    }
+
+    .skills-image-column img {
+        width: 100%;
+    }
+}
+
+
+html, body{
+    overflow-x: hidden !important
+}
+
+
+/* Title */
+#title-container {
+    background-color: #FFF0DC;
+    position: relative;
+}
+
+#title-container h1 {
+    font-family: "Space Mono", serif;
+    font-size: 3em;
+    font-weight: 600;
+    font-style: normal;
+    color: #F0BB78;
+}
+
+#title-container p {
+    font-family: "Chakra Petch", serif;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+#abstract-image {
+    position: absolute;
+    bottom: -8px;
+    right: -400px;
+}
+
+
+/* Resume */
+#resume-container h2{
+    font-family: "Space Mono", serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    color: #F0BB78;
+    padding-bottom: 20px;
+}
+
+#resume-container p{
+    font-family: "Chakra Petch", serif;
+}
+
+
+/* Work Experience */
+.work-experience p span{
+    font-weight: 500;
+}
+
+
+/* Education */
+.education h2 {
+    text-align: left;
+}
+
+.education ul{
+    font-family: "Chakra Petch", serif;
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
+
+.education li{
+    padding-bottom: 10px;
+}
+
+.education img {
+    padding-bottom: 20px;
+}
+
+.education-image-column {
+    flex: 0 0 300px;
+}
+
+.education ul span {
+    font-weight: 500;
+}
+
+
+/* Skills */
+.skills h2 {
+    text-align: left;
+}
+
+.skills img {
+    padding-bottom: 20px;
+}
+
+.skills-image-column {
+    flex: 0 0 200px;
+}
+
+.skills h6 {
+    font-family: "Chakra Petch", serif;
+    font-weight: 600;
+}
+
+/* Projects */
+#projects-container {
+    background-color: #FFF0DC;
+}
+
+#projects-container h2 {
+    font-family: "Space Mono", serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    color: #F0BB78;
+}
+
+#projects-container h3 {
+    font-family: "Space Mono", serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: italic;
+    color: #131010;
+}
+
+#projects-container p {
+    font-family: "Chakra Petch", serif;
+    font-weight: 500;
+}
+
+#projects-container a {
+    background-color: #543A14;
+    font-family: "Chakra Petch", serif;
+    color: white;
+    box-shadow: 3px 3px #131010;
+}
+
+/* About me */
+#about-container h1 {
+    font-family: "Space Mono", serif;
+    font-size: 2em;
+    font-weight: 600;
+    font-style: normal;
+    color: #F0BB78;
+}
+
+#about-container p {
+    font-family: "Chakra Petch", serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/* Contact me */
+#contact-container h1{
+    font-family: "Space Mono", serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #FFF0DC;
+    color: #131010;
+}
+
+#contact-container p{
+    font-family: "Chakra Petch", serif;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+#contact-container a {
+    font-family: "Chakra Petch", serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    background-color: #F0BB78;
+    color: white;
+    box-shadow: 3px 3px #131010;
+}
+
+/* Footer */
+#footer-container {
+    background-color: #F0BB78;
+    text-align: center;
+    padding: 20px;
+}
