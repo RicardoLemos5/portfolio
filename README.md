@@ -1,2 +1,2 @@
-# Portofolio
-Website link: https://ricardolemos5.github.io/portofolio/
+# Portfólio
+Website link: https://ricardolemos5.github.io/portfolio/
