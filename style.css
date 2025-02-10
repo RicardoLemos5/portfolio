@@ -1,21 +1,3 @@
-@media (max-width: 1000px) {
-    #abstract-image {
-        width: 500px;
-        bottom: -5px !important;
-    }
-}
-
-@media (max-width: 600px) {
-    .education-image-column img {
-        width: 100%;
-    }
-
-    .skills-image-column img {
-        width: 100%;
-    }
-}
-
-
 html, body{
     overflow-x: hidden !important
 }
@@ -121,6 +103,17 @@ html, body{
     background-color: #FFF0DC;
 }
 
+#projects-container .col {
+    display: flex;
+    flex-direction: column;
+}
+
+#projects-container .col > div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 #projects-container h2 {
     font-family: "Space Mono", serif;
     font-size: 2em;
@@ -147,6 +140,8 @@ html, body{
     font-family: "Chakra Petch", serif;
     color: white;
     box-shadow: 3px 3px #131010;
+    margin-top: auto;
+    margin-right: auto;
 }
 
 /* About me */
@@ -194,4 +189,21 @@ html, body{
     background-color: #F0BB78;
     text-align: center;
     padding: 20px;
+}
+
+@media (max-width: 1000px) {
+    #abstract-image {
+        width: 500px;
+        bottom: -5px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .education-image-column img {
+        width: 100%;
+    }
+
+    .skills-image-column img {
+        width: 100%;
+    }
 }
